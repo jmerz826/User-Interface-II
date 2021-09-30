@@ -20,7 +20,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -30,9 +30,94 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
+
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border:1px dotted red; */
 }
-ol, ul {
-	list-style: none;
+
+html{
+    font-size:62.5%;
+}
+body{
+    line-height:1.5;
+    font-size: 1.6rem;
+    background-color: lightskyblue;
+}
+#top{
+    background-color: silver;
+} 
+h1, h2{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2{
+    font-size:4rem;
+    font-weight: normal;
+}
+header p{
+    text-align:center;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    width:10%;
+    text-align: center;
+    background-color: gold;
+    border: 1px solid black;
+}
+
+div.big-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    height:40vh;
+}
+.projects-container{
+    display: flex;
+    flex-wrap: no-wrap;
+    padding-top: 1%;
+    height: 40vh;
+    
+}
+.projects-imgs{
+    /* border:2px solid gold; */
+    width:180%;
+    /* background-color: black; */
+}
+
+.projects-imgs img{
+    width:24%;
+    height:100%;
+    padding: 0 1%;
+    border:2px solid gold;
+}
+.projects-caption{
+    margin:auto 0;
+}
+.projects-caption p{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.footer{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top:1%;
+}
+.footer a{
+    text-decoration: none;
+    color:black;
+    background-color: gold;;
 }
