@@ -55,18 +55,24 @@ h1, h2{
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    /* margin:1%; */
 }
 h2{
     font-size:4rem;
     font-weight: normal;
+    margin:1%
 }
 header p{
     text-align:center;
-
+    margin:0 10%;
 }
 nav{
     display: flex;
     justify-content: center;
+    margin-top:2%
+}
+#top nav{
+    margin-top:1%;
 }
 nav a{
     width:10%;
@@ -80,7 +86,7 @@ div.big-img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
-    height:40vh;
+    height:35vh;
 }
 .projects-container{
     display: flex;
@@ -91,7 +97,7 @@ div.big-img{
 }
 .projects-imgs{
     /* border:2px solid gold; */
-    width:180%;
+    width:190%;
     /* background-color: black; */
 }
 
@@ -119,5 +125,14 @@ div.big-img{
 .footer a{
     text-decoration: none;
     color:black;
-    background-color: gold;;
+    background-color: gold;
+    margin:2%;
+    padding:0.5%;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.bold{
+    font-weight: bold;
+    font-style: italic;
+
 }
