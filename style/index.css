@@ -136,3 +136,32 @@ div.big-img{
     font-style: italic;
 
 }
+.about-me p{
+    font-size:1.6rem;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.construction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.construction img{
+    width:400px;
+    height: auto;
+    border:2px solid red;
+
+}
+.construction p{
+    text-align: center;
+    margin-top: 2%;
+}
