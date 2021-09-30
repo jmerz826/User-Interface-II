@@ -121,6 +121,7 @@ div.big-img{
     justify-content: center;
     border-top: 1px solid black;
     margin-top:1%;
+    align-items: center;
 }
 .footer a{
     text-decoration: none;
@@ -130,6 +131,9 @@ div.big-img{
     padding:0.5%;
     border:1px solid black;
     border-radius: 5px;
+}
+.social-links{
+    display: flex;
 }
 .bold{
     font-weight: bold;
